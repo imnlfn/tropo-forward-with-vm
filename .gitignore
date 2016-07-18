@@ -1,0 +1,5 @@
+logs/
+msgs/
+vendor/
+composer.*
+tropo*.php
