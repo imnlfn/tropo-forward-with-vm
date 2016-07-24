@@ -1,5 +1,6 @@
 logs/
 msgs/
 vendor/
-composer.*
+composer.lock
 tropo*.php
+config.php
