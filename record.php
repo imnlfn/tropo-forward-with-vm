@@ -1,9 +1,8 @@
+// This is the code to handle an incoming voicemail message.
 <?php
 // KLogger is a logging class from 
 // https://github.com/katzgrau/KLogger
 $log = new Katzgrau\KLogger\Logger(__DIR__ . '/logs');
-
-// This is an incoming voicemail message.
 
 // The location where files are saved.
 $target_path = 'msgs/' . $_FILES['filename']['name'];
